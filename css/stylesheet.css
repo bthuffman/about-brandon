@@ -1,0 +1,26 @@
+body {
+	background-image: url(../images/white-bricks.jpg);
+	background-color: beige;
+}
+
+.content {
+	max-width:1000px;
+	margin: auto;
+}
+
+.text-indent {
+	text-indent: 50px;
+}
+
+.heart {
+	display: inline-block;
+	font-size: 20px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(3); }
+}
